@@ -35,6 +35,8 @@ const httpClient = (url, options = {}) => {
 };
 const dataProvider = hasuraDataProvider(hasuraUri, httpClient);
 
+// The Hasura data provider looks as though it's configured correctly. Is your Hasura instance configured to use JWT ?
+
 // Define main App
 const App = () => {
   return (
